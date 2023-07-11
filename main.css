@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Default css start  */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Default css end */
+/*========== Header =============*/
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color: #000;
+}
+
+.nav_links li a:hover {
+    color: #0088a9
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* banner section start */
+body {
+    font-family: 'lato', sans-serif;
+}
+
+.main_flowers_frist {
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.flowers {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.flowers-banner {
+    padding-top: 150px;
+}
+
+.flowers-title {
+    color: #272727;
+    font-size: 70px;
+
+}
+
+.flowers-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 32px;
+    width: 588px;
+}
+
+.button-primary {
+    margin-top: 32px;
+    border-radius: 8px;
+    background-color: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+}
+
+.picture {
+    width: 560px;
+    height: 660px;
+}
+
+/* banner section end*/
+
+
+
+/* Featured Flowers Start */
+.flowers_heading {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flowers_heading h2 {
+    font-size: 50px;
+}
+
+.flowers_heading p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.main_flowers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.frist_cards {
+    width: 340px;
+}
+
+.frist_card {
+    width: 340px;
+    height: 400px;
+    background: #f0aacc;
+    border-radius: 170px 170px 0px 0;
+    justify-content: center;
+    display: flex;
+    align-items: end;
+}
+
+.frist_card2 {
+    width: 340px;
+    height: 400px;
+    background: #aadcf0;
+    border-radius: 170px 170px 0px 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.frist_card2 img {
+    height: 300px;
+}
+
+.frist_card img {
+    height: 300px;
+}
+
+.frist_card_title {
+    text-align: center;
+}
+
+/*================ Featured Flowers end ===========*/
+
+
+
+/*===== Default css =======*/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*============= Our Featured Flowers Start ===========*/
+.flowers_heading {
+    text-align: center;
+}
+
+.flowers_heading h2 {
+    font-size: 50px;
+}
+
+.flowers_heading p {
+    font-size: 20px;
+}
+
+.main_flowers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.frist_cards {
+    width: 340px;
+}
+
+.frist_card {
+    width: 340px;
+    height: 400px;
+    background: #f0aacc;
+    border-radius: 170px 170px 0px 0;
+    justify-content: center;
+    display: flex;
+    align-items: end;
+}
+
+.frist_card2 {
+    width: 340px;
+    height: 400px;
+    background: #aadcf0;
+    border-radius: 170px 170px 0px 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.frist_card3 {
+    width: 340px;
+    height: 400px;
+    background: #878b8d;
+    border-radius: 170px 170px 0px 0;
+    justify-content: center;
+    display: flex;
+    align-items: end;
+}
+
+.frist_card3 img {
+    height: 300px;
+}
+
+.frist_card2 img {
+    height: 300px;
+}
+
+.frist_card img {
+    height: 300px;
+}
+
+.frist_card_title {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+/*============= Our Featured Flowers end ==============*/
+/*============= Our Featured Flowers start ==============*/
+.contact {
+    margin: 100px 0px;
+}
+
+.service_main {
+    height: 280px;
+    background-color: rgb(236, 233, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+}
+
+/*============= Our Featured Flowers end ==============*/
+/*=============== offer service section start ===========*/
+.offer_main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(250, 220, 245);
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    margin-bottom: 20px;
+    height: 350px;
+}
+
+.offer_main img {
+    height: 250px;
+}
+
+.offer_text {
+    text-align: center;
+}
+
+.offer_text h1 {
+    font-weight: 700px;
+    font-size: 30px;
+}
+
+.bg_text {
+    color: #E55473;
+}
+
+.offer_text p {
+    margin-top: 15px;
+}
+
+.offer_main button {
+    background-color: #E55473;
+    width: 100px;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 15px;
+    border: none;
+}
+
+/*=============== offer service section end *===========/
+/*=================== instagram start ==================*/
+
+.instagram_main {
+    text-align: center;
+    margin: 30px;
+}
+
+.instagram_main h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.instagram_main p {
+    margin-top: 15px;
+}
+
+.instagram_card {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.instagram_card .instagram_card_img {
+    width: 280px;
+    height: 280px;
+}
+
+.instagram_card img {
+    width: 250px;
+    height: 250px;
+}
+
+/*================ instagram end =====================*/
+
+/*================Get The Start===========*/
+.get {
+    margin-top: 128px;
+    width: 100%;
+    height: 449px;
+    background-image: url('./Rectangle\ 9.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get_details h2 {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.get_details p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.input_file {
+    margin-top: 30px;
+}
+
+.input_file input {
+    width: 550px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.input_file button {
+    margin-left: 5px;
+    width: 150px;
+    height: 60px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #ffff;
+    border: none;
+}
+
+/*================Get The end===========*/
+
+/*====================== footer start =================*/
+.footer {
+    width: 100%;
+    background-color: black;
+}
+
+.footer_main {
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+.bg_btn {
+    color: #E55473;
+}
+
+.footer_main p {
+    margin-top: 15px;
+    line-height: 35px;
+}
+
+.Footer_front {
+    color: antiquewhite;
+}
+
+/*==================== footer end ======================*/
